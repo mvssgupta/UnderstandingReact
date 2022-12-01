@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.CounterButton{
+  margin-right:10px;
+  background-color: chartreuse;
+  color:black;
+}
