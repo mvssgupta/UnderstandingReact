@@ -3,7 +3,8 @@ import './App.css';
 // import Welcome from './components/Welcome';
 // import GreetPersons from './components/GreetPersons';
 // import Message from './components/Message';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
+import ClickFunction from './components/ClickFunction';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <GreetPersons name="Raghu"><p>Congratulations</p></GreetPersons>
       <GreetPersons name="Srinu"><button>Click me</button></GreetPersons> */}
       {/* <Message/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <ClickFunction></ClickFunction>
     </div>
   );
 }
