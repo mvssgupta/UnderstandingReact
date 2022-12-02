@@ -4,7 +4,8 @@ import './App.css';
 // import GreetPersons from './components/GreetPersons';
 // import Message from './components/Message';
 // import Counter from './components/Counter';
-import ClickFunction from './components/ClickFunction';
+// import ClickFunction from './components/ClickFunction';
+import EventBinding from './components/EventBinding';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <GreetPersons name="Srinu"><button>Click me</button></GreetPersons> */}
       {/* <Message/> */}
       {/* <Counter/> */}
-      <ClickFunction></ClickFunction>
+      {/* <ClickFunction></ClickFunction> */}
+      <EventBinding></EventBinding>
     </div>
   );
 }
