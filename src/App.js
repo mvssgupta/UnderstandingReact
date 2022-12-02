@@ -5,7 +5,8 @@ import './App.css';
 // import Message from './components/Message';
 // import Counter from './components/Counter';
 // import ClickFunction from './components/ClickFunction';
-import EventBinding from './components/EventBinding';
+// import EventBinding from './components/EventBinding';
+import Parent from './components/Parent';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Message/> */}
       {/* <Counter/> */}
       {/* <ClickFunction></ClickFunction> */}
-      <EventBinding></EventBinding>
+      {/* <EventBinding></EventBinding> */}
+      <Parent></Parent>
     </div>
   );
 }
