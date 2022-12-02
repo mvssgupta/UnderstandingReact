@@ -8,18 +8,18 @@ class Parent extends Component {
     this.state = {
       ParentName: "Narayana Murty",
     };
-    this.GreetParent = this.GreetParent.bind(this) //event bining
+    this.WishParent = this.WishParent.bind(this) //event bining
   }
 
-  GreetParent ()
+  WishParent (ChildName)
   {
-    alert(`Hello ${this.state.ParentName} sir, welcome`)
+    alert(`Happy Birthday ${this.state.ParentName} sir from your's lovely son ${ChildName}`)
   }
 
   render() {
     return (
       <>
-      <Child GreetHandler = {this.GreetParent}></Child>
+      <Child WishHandler = {this.WishParent}></Child>
       </>
     );
   }
