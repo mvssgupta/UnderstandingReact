@@ -7,7 +7,8 @@ import './App.css';
 // import ClickFunction from './components/ClickFunction';
 // import EventBinding from './components/EventBinding';
 // import Parent from './components/Parent';
-import ObjectList from './components/ObjectList';
+// import ObjectList from './components/ObjectList';
+import FormControlledComponent from './components/FormControlledComponent';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <ClickFunction></ClickFunction> */}
       {/* <EventBinding></EventBinding> */}
       {/* <Parent></Parent> */}
-      <ObjectList></ObjectList>
+      {/* <ObjectList></ObjectList> */}
+      <FormControlledComponent></FormControlledComponent>
     </div>
   );
 }
