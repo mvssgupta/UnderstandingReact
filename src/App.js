@@ -8,7 +8,8 @@ import './App.css';
 // import EventBinding from './components/EventBinding';
 // import Parent from './components/Parent';
 // import ObjectList from './components/ObjectList';
-import FormControlledComponent from './components/FormControlledComponent';
+// import FormControlledComponent from './components/FormControlledComponent';
+import LifeCycleParent from './components/LifeCycleParent';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <EventBinding></EventBinding> */}
       {/* <Parent></Parent> */}
       {/* <ObjectList></ObjectList> */}
-      <FormControlledComponent></FormControlledComponent>
+      {/* <FormControlledComponent></FormControlledComponent> */}
+      <LifeCycleParent></LifeCycleParent>
     </div>
   );
 }
