@@ -9,7 +9,9 @@ import './App.css';
 // import Parent from './components/Parent';
 // import ObjectList from './components/ObjectList';
 // import FormControlledComponent from './components/FormControlledComponent';
-import LifeCycleParent from './components/LifeCycleParent';
+// import LifeCycleParent from './components/LifeCycleParent';
+// import PureComp from './components/PureComp';
+import ParentOfPureAndRegComponent from './components/ParentOfPureAndRegComponent';
 
 function App() {
   return (
@@ -25,7 +27,9 @@ function App() {
       {/* <Parent></Parent> */}
       {/* <ObjectList></ObjectList> */}
       {/* <FormControlledComponent></FormControlledComponent> */}
-      <LifeCycleParent></LifeCycleParent>
+      {/* <LifeCycleParent></LifeCycleParent> */}
+      {/* <PureComp></PureComp> */}
+      <ParentOfPureAndRegComponent></ParentOfPureAndRegComponent>
     </div>
   );
 }
