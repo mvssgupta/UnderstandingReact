@@ -11,7 +11,8 @@ import './App.css';
 // import FormControlledComponent from './components/FormControlledComponent';
 // import LifeCycleParent from './components/LifeCycleParent';
 // import PureComp from './components/PureComp';
-import ParentOfPureAndRegComponent from './components/ParentOfPureAndRegComponent';
+// import ParentOfPureAndRegComponent from './components/ParentOfPureAndRegComponent';
+import EnrollmentForm from './components/EnrollmentForm'
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <FormControlledComponent></FormControlledComponent> */}
       {/* <LifeCycleParent></LifeCycleParent> */}
       {/* <PureComp></PureComp> */}
-      <ParentOfPureAndRegComponent></ParentOfPureAndRegComponent>
+      {/* <ParentOfPureAndRegComponent></ParentOfPureAndRegComponent> */}
+      <EnrollmentForm></EnrollmentForm>
     </div>
   );
 }
