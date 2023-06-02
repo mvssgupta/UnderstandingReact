@@ -3,7 +3,7 @@ import './App.css';
 // import Welcome from './components/Welcome';
 // import GreetPersons from './components/GreetPersons';
 // import Message from './components/Message';
-// import Counter from './components/Counter';
+import Counter from './components/Counter';
 // import ClickFunction from './components/ClickFunction';
 // import EventBinding from './components/EventBinding';
 // import Parent from './components/Parent';
@@ -12,7 +12,7 @@ import './App.css';
 // import LifeCycleParent from './components/LifeCycleParent';
 // import PureComp from './components/PureComp';
 // import ParentOfPureAndRegComponent from './components/ParentOfPureAndRegComponent';
-import EnrollmentForm from './components/EnrollmentForm'
+// import EnrollmentForm from './components/EnrollmentForm'
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <GreetPersons name="Raghu"><p>Congratulations</p></GreetPersons>
       <GreetPersons name="Srinu"><button>Click me</button></GreetPersons> */}
       {/* <Message/> */}
-      {/* <Counter/> */}
+      <Counter/>
       {/* <ClickFunction></ClickFunction> */}
       {/* <EventBinding></EventBinding> */}
       {/* <Parent></Parent> */}
@@ -31,7 +31,7 @@ function App() {
       {/* <LifeCycleParent></LifeCycleParent> */}
       {/* <PureComp></PureComp> */}
       {/* <ParentOfPureAndRegComponent></ParentOfPureAndRegComponent> */}
-      <EnrollmentForm></EnrollmentForm>
+      {/* <EnrollmentForm></EnrollmentForm> */}
     </div>
   );
 }
